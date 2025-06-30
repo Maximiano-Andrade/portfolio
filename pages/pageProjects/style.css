@@ -100,3 +100,9 @@
     text-shadow: 1px 1px var(--secondary-color);
     transform: scale(1.05);
 }
+
+@media (max-width: 918px) {
+    .section-projects .links-projects {
+    grid-template-columns: auto;
+}
+}
