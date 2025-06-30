@@ -108,7 +108,6 @@ body {
     display: flex;
     align-items: center;
     width: 100%;
-    height: 200px;
 }
 
 .main-container .list-infor ul {
@@ -161,7 +160,7 @@ body {
     }
 
     .main-container .welcome-section {
-        height: 100vh;
+        height: 88vh;
         align-items: center;
     }
 
@@ -178,6 +177,12 @@ body {
         font-weight: 500;
     }
 
+    .main-container .list-infor {
+        justify-content: center;
+    }
 
+    .main-container .list-infor ul {
+    flex-direction: column;
+}
 
 }
