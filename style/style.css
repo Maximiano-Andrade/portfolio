@@ -139,7 +139,7 @@ body {
 }
 
 /* RESPONSIVIDADE 390PX*/
-@media (max-width: 428px) {
+@media (max-width: 528px) {
     .header-container {
         flex-direction: column;
         gap: 10px;
