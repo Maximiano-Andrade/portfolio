@@ -1,0 +1,118 @@
+.contact-container {
+    width: 100%;
+    padding: 7px 0px;
+}
+
+.contact-container .title-contact {
+    text-align: center;
+}
+
+.contact-container .title-contact h1 {
+    color: var(--primary-color);
+}
+
+.form-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 4%;
+    background-color: var(--secondary-color);
+}
+
+.form-contact h2 {
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+.form-contact form {
+    width: 100%;
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    Align-items: center;
+}
+
+.form-contact form .form-inputs {
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-contact form .form-inputs div {
+    width: 32rem;
+    height: 50px;
+    border: 1px solid var(--primary-color);
+    display: flex;
+}
+
+.form-contact form .form-inputs div label {
+    width: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-contact form .form-inputs div label i {
+    color: var(--primary-color);
+    font-size: 2rem;
+    padding: 0px 10px;
+}
+
+.form-contact form .form-inputs div input {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    padding: 0px 10px;
+    border: none;
+}
+
+.form-contact form .form-inputs div input:focus {
+    outline: none;
+    border: 3px solid var(--background-color);
+}
+
+.form-contact form .form-inputs .message-btn {
+    height: 100%;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+}
+
+.form-contact form .form-inputs .message-btn textarea {
+    width: 100%;
+    height: 242px;
+    font-size: 16px;
+    padding: 10px;
+    resize: none;
+}
+
+.form-contact form .form-inputs .message-btn textarea:focus {
+    outline: none;
+    border: 3px solid var(--background-color);
+}
+
+.form-contact form .form-inputs .message-btn .btn-enviar {
+    width: 50%;
+    border: none;
+}
+
+.form-contact form .form-inputs .message-btn .btn-enviar input {
+    border-radius: 5px;
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: 1px 1px var(--secondary-color);
+    cursor: pointer;
+}
+
+.form-contact form .form-inputs .message-btn .btn-enviar input:hover {
+    background-color: #dc4d37c7;
+    transform: scale(1.05);
+    transition: 0.3s;
+}

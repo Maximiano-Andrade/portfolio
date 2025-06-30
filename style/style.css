@@ -1,0 +1,172 @@
+:root {
+    --background-color: #DC4D37;
+    --primary-color: #F2F5FA;
+    --secondary-color: #333;
+    --accent-color: #333333c6;
+    --font-family: "Poppins", sans-serif;
+    --font-family-secondary: "Anton", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: var(--font-family);
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.global-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 0px 20px;
+    border-bottom: 1px solid var(--accent-color);
+}
+
+.header-container .logo h1 {
+    color: var(--primary-color);
+    letter-spacing: 0.2rem;
+    font-family: var(--font-family-secondary);
+}
+
+.header-container .nav-menu {
+    width: 100%;
+}
+
+.header-container .nav-menu ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.header-container .nav-menu ul li a {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--accent-color);
+}
+
+.header-container .nav-menu ul .active {
+    color: var(--primary-color);
+}
+
+.header-container .nav-menu ul li a:hover {
+    color: var(--primary-color);
+
+}
+
+.main-container {
+    width: 100%;
+    height: 91vh;
+}
+
+.main-container .welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+}
+
+.main-container .welcome-section .text-welcome {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.welcome-section .text-welcome h1 {
+    color: var(--primary-color);
+    font-size: 7rem;
+}
+
+.welcome-section .text-welcome p {
+    color: var(--accent-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.welcome-section .text-welcome p span {
+    color: #000;
+}
+
+.main-container .list-infor {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+.main-container .list-infor ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.main-container .list-infor ul li {
+    padding: 0px 20px;
+}
+
+.main-container .list-infor ul li h4 {
+    color: var(--primary-color);
+    padding-bottom: 1rem;
+    text-shadow: 1px 1px var(--secondary-color);
+}
+
+/* RESPONSIVIDADE 390PX*/
+@media (max-width: 428px) {
+    .header-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header-container {
+        padding: 10px 20px;
+    }
+
+    .header-container .nav-menu ul {
+        justify-content: center;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .main-container {
+        height: 100%;
+        padding: 0px 20px;
+    }
+
+    .main-container .welcome-section {
+        height: 100vh;
+        align-items: center;
+    }
+
+    .main-container .welcome-section .text-welcome {
+        justify-content: start;
+    }
+
+    .welcome-section .text-welcome h1 {
+        font-size: 4.8rem;
+    }
+
+    .welcome-section .text-welcome p {
+        font-size: 2.1rem;
+        font-weight: 500;
+    }
+
+
+
+}
