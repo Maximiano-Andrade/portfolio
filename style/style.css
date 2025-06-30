@@ -114,11 +114,22 @@ body {
 .main-container .list-infor ul {
     display: flex;
     align-items: center;
+    gap: 10px;
     height: 100%;
 }
 
 .main-container .list-infor ul li {
-    padding: 0px 20px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(20 0 0 / 20%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-backdrop-filter:
+        blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 10px 20px;
 }
 
 .main-container .list-infor ul li h4 {
