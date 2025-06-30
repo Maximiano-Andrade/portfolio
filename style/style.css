@@ -138,8 +138,8 @@ body {
     text-shadow: 1px 1px var(--secondary-color);
 }
 
-/* RESPONSIVIDADE 390PX*/
-@media (max-width: 528px) {
+/* RESPONSIVIDADE 918PX*/
+@media (max-width: 918px) {
     .header-container {
         flex-direction: column;
         gap: 10px;
