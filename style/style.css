@@ -107,12 +107,14 @@ body {
 .main-container .list-infor {
     display: flex;
     align-items: center;
+    height: 100%;
     width: 100%;
 }
 
 .main-container .list-infor ul {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     height: 100%;
 }
@@ -161,6 +163,7 @@ body {
 
     .main-container .welcome-section .text-welcome {
         margin-bottom: 20px;
+        height: 60%;
     }
 
     .welcome-section .text-welcome h1 {
