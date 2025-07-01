@@ -140,6 +140,10 @@ body {
     text-shadow: 1px 1px var(--secondary-color);
 }
 
+.main-container .list-infor ul li p {
+    text-align: center;
+}
+
 /* RESPONSIVIDADE 918PX*/
 @media (max-width: 918px) {
     .header-container {
@@ -180,7 +184,7 @@ body {
     }
 
     .main-container .list-infor ul {
-    flex-direction: column;
-}
+        flex-direction: column;
+    }
 
 }
