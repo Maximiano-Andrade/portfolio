@@ -17,11 +17,16 @@
     justify-content: center;
     align-items: center;
     padding: 80px 4%;
-    background-color: var(--secondary-color);
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(20 0 0 / 20%);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .form-contact h2 {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-size: 2rem;
 }
 
@@ -57,7 +62,7 @@
 }
 
 .form-contact form .form-inputs div label i {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-size: 2rem;
     padding: 0px 10px;
 }
@@ -115,4 +120,11 @@
     background-color: #dc4d37c7;
     transform: scale(1.05);
     transition: 0.3s;
+}
+
+@media (max-width: 918px) {
+    .contact-container {
+        width: 100%;
+        padding: 10px 20px;
+    }
 }
