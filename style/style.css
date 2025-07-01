@@ -157,11 +157,10 @@ body {
 
     .main-container .welcome-section {
         align-items: center;
-        gap: 50px;
     }
 
     .main-container .welcome-section .text-welcome {
-        justify-content: start;
+        margin-bottom: 20px;
     }
 
     .welcome-section .text-welcome h1 {
