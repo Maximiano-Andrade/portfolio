@@ -121,6 +121,7 @@ body {
 
 .main-container .list-infor ul li {
     width: 100%;
+    height: 115px;
     backdrop-filter: blur(10px);
     background: rgba(255, 255, 255, 0.25);
     box-shadow: 0 8px 32px 0 rgba(20 0 0 / 20%);
