@@ -49,6 +49,7 @@
 
 .about-section .text-about p {
     margin-top: 10px;
+    text-align: justify;
     font-family: var(--font-family);
 }
 
@@ -98,6 +99,10 @@
 
 .about-section .text-about .list-about li ul li i {
     color: var(--primary-color);
+    font-size: 39px;
+}
+.about-section .text-about .list-about li ul li i:hover {
+    color: var(--background-color);
     font-size: 39px;
 }
 
