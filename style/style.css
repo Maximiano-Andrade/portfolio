@@ -162,19 +162,27 @@ body {
     border-top: 1px solid var(--accent-color);
 }
 
-/* .rodape-links-redes-sociais .cart-rede a {
-    width: 50px;
-    height: 50px;
-} */
 
+.rodape-links-redes-sociais .cart-rede a {
+    width: 40PX;
+    height: 40PX;
+    backdrop-filter: blur(11px);
+    -webkit-backdrop-filter: blur(11px);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .rodape-links-redes-sociais .cart-rede a i {
     font-size: 1.7rem;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .rodape-links-redes-sociais .cart-rede a i:hover {
     font-size: 1.7rem;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .rodape-container .copy {
