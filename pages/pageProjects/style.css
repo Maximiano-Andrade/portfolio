@@ -54,6 +54,11 @@
     height: 100%;
     border-radius: 5px;
 }
+.card-project .project-descricao {
+    height: 100%;
+    text-align: justify;
+}
+
 
 .card-project .project-tecnologia-utilizador {
     width: 100%;
