@@ -71,14 +71,15 @@
     width: 100%;
 }
 
-.about-section .text-about .list-about li ul{
+.about-section .text-about .list-about li ul {
     width: 100%;
     display: grid;
     grid-gap: 6px;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
 }
-.about-section .text-about .list-about li ul li{
+
+.about-section .text-about .list-about li ul li {
     width: 100%;
     gap: 1px;
     border-radius: 10px;
@@ -88,12 +89,14 @@
     flex-direction: column;
     align-items: center;
 }
-.about-section .text-about .list-about li ul li h6{
+
+.about-section .text-about .list-about li ul li h6 {
     color: var(--primary-color);
     font-size: 23px;
-    
+
 }
-.about-section .text-about .list-about li ul li i{
+
+.about-section .text-about .list-about li ul li i {
     color: var(--primary-color);
     font-size: 39px;
 }
@@ -137,6 +140,12 @@
     .about-section .foto-about {
         width: 100%;
         height: 48rem;
+    }
+
+
+    .about-section .text-about .list-about li ul {
+        grid-gap: 10px;
+        grid-template-columns: auto;
     }
 
 }
