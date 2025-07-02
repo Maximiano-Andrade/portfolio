@@ -76,7 +76,7 @@
     width: 100%;
     display: grid;
     grid-gap: 6px;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     grid-template-rows: auto;
 }
 
@@ -116,7 +116,7 @@
     -webkit-backdrop-filter: blur(11px);
     backdrop-filter: blur(11px);
     border: 1px solid rgba(255, 255, 255, 0.18);
-    padding: 20px;
+    padding: 10px;
 }
 
 .formacao-container .formacao-title {
@@ -132,42 +132,97 @@
 .formacao-container .formacao-mais-detalhes {
     width: 100%;
     height: 100%;
+    display: flex;
+
 }
 
 .formacao-container .formacao-mais-detalhes .cards-formacao {
     width: 100%;
     display: grid;
-    grid-gap: 10px;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
 }
 
-.formacao-mais-detalhes .cards-formacao li {
+.formacao-mais-detalhes .cards-formacao .container-fromacao {
+    width: 100%;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.cards-formacao li .card-formacao-title {
+.cards-formacao .container-fromacao .card-formacao-title {
     width: 100%;
     padding: 10px;
     text-align: center;
 }
 
-.cards-formacao li .card-formacao-title h2 {
+.cards-formacao .container-fromacao .card-formacao-title h2 {
     color: var(--secondary-color);
 }
 
-.cards-formacao li ul {
+
+.cards-formacao .container-fromacao ul {
     padding: 15px;
     border-radius: 10px;
     background-color: #33333321;
+    width: 100%;
+    height: 100%;
     box-shadow: 0 8px 32px 0 rgba(20 0 0 / 20%);
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-.cards-formacao li ul .card-academico .card-title-descript .title h4 {
+.cards-formacao .container-fromacao ul .card-academico {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cards-formacao .container-fromacao ul .card-academico .card-title-descript {
+    height: 100%;
+}
+
+.cards-formacao .container-fromacao ul .card-academico .card-title-descript .title {
+    padding-bottom: 10px;
+}
+
+
+
+.cards-formacao .container-fromacao ul .card-academico .card-title-descript .title h4 {
     color: var(--primary-color);
     font-size: 18px;
+}
+
+.cards-formacao .container-fromacao ul .card-academico .card-title-descript .title span {
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cards-formacao .container-fromacao ul .card-academico .card-title-descript .descript p {
+    font-size: 18px;
+
+}
+
+.cards-formacao .container-fromacao ul .card-academico .card-dates {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.card-academico .card-dates p {
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.card-academico .card-dates span {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary-color);
 }
 
 
