@@ -139,7 +139,7 @@
 .formacao-container .formacao-mais-detalhes .cards-formacao {
     width: 100%;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: auto;
 }
 
 .formacao-mais-detalhes .cards-formacao .container-fromacao {
@@ -160,47 +160,41 @@
     color: var(--secondary-color);
 }
 
-
 .cards-formacao .container-fromacao ul {
-    padding: 15px;
-    border-radius: 10px;
-    background-color: #33333321;
     width: 100%;
     height: 100%;
-    box-shadow: 0 8px 32px 0 rgba(20 0 0 / 20%);
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: grid;
+    grid-gap: 10px;
+
 }
 
 .cards-formacao .container-fromacao ul .card-academico {
-    display: flex;
-    height: 100%;
-    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
     gap: 10px;
+    background-color: #33333321;
+    width: 100%;
+    box-shadow: 0 8px 32px 0 rgba(20 0 0 / 20%);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    flex-direction: column;
 }
+
 
 .cards-formacao .container-fromacao ul .card-academico .card-title-descript {
     height: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
-.cards-formacao .container-fromacao ul .card-academico .card-title-descript .title {
-    padding-bottom: 10px;
-}
-
-
-
-.cards-formacao .container-fromacao ul .card-academico .card-title-descript .title h4 {
+.card-academico .card-title-descript .title h4 {
     color: var(--primary-color);
     font-size: 18px;
-}
-
-.cards-formacao .container-fromacao ul .card-academico .card-title-descript .title span {
-    color: var(--primary-color);
-    font-size: 18px;
-    font-weight: 600;
 }
 
 .cards-formacao .container-fromacao ul .card-academico .card-title-descript .descript p {
-    font-size: 18px;
+    font-size: 17px;
 
 }
 
@@ -210,21 +204,19 @@
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-
 }
 
 .card-academico .card-dates p {
     font-size: 17px;
     font-weight: 600;
-
 }
 
-.card-academico .card-dates span {
+.card-academico .card-title-descript .descript p span,
+.card-academico .card-dates span{
     font-size: 20px;
     font-weight: 600;
     color: var(--primary-color);
-}
-
+} 
 
 
 
@@ -246,10 +238,6 @@
 
     .about-section .text-about .list-about li ul {
         grid-gap: 10px;
-        grid-template-columns: auto;
-    }
-
-    .formacao-container .formacao-mais-detalhes .cards-formacao {
         grid-template-columns: auto;
     }
 
