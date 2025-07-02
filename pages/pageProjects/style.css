@@ -40,7 +40,8 @@
 .card-project .project-title {
     text-align: center;
 }
-.card-project .project-title h2{
+
+.card-project .project-title h2 {
     color: var(--secondary-color);
 }
 
@@ -61,8 +62,9 @@
     flex-direction: column;
     align-items: center;
 }
-.card-project .project-tecnologia-utilizador h3{
-   color: var(--secondary-color);
+
+.card-project .project-tecnologia-utilizador h3 {
+    color: var(--secondary-color);
 }
 
 .card-project .project-tecnologia-utilizador ul {
@@ -108,5 +110,6 @@
 @media (max-width: 918px) {
     .section-projects .links-projects {
         grid-template-columns: auto;
+        padding: 0px 20px;
     }
 }
