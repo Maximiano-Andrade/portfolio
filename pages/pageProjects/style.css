@@ -25,21 +25,23 @@
 .links-projects .card-project {
     padding: 20px 10px;
     gap: 8px;
-    backdrop-filter: blur(10px);
-    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(11px);
+    background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 8px 32px 0 rgba(20 0 0 / 50%);
     display: flex;
     flex-direction: column;
     align-items: center;
     -webkit-backdrop-filter:
-        blur(10px);
+        blur(11px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .card-project .project-title {
-
     text-align: center;
+}
+.card-project .project-title h2{
+    color: var(--secondary-color);
 }
 
 .card-project .card-img {
@@ -58,6 +60,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.card-project .project-tecnologia-utilizador h3{
+   color: var(--secondary-color);
 }
 
 .card-project .project-tecnologia-utilizador ul {
@@ -81,8 +86,7 @@
 }
 
 .card-project .veja-mais a {
-    width: 50%;
-    height: 40px;
+    padding: 0.7rem 5rem;
     border-radius: 5px;
     color: var(--primary-color);
     font-size: 16px;
@@ -91,7 +95,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--background-color);
+    background-color: var(--secondary-color);
     transition: 0.3s;
 }
 

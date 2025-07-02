@@ -17,10 +17,11 @@
     justify-content: center;
     align-items: center;
     padding: 80px 4%;
-    backdrop-filter: blur(10px);
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(20 0 0 / 20%);
-    -webkit-backdrop-filter: blur(10px);
+    
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: var(--box-shadow);
+    -webkit-backdrop-filter: blur(11px);
+    backdrop-filter: blur(11px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
@@ -103,21 +104,23 @@
 
 .form-contact form .form-inputs .message-btn .btn-enviar {
     width: 50%;
-    border: none;
+    border: none; 
 }
 
 .form-contact form .form-inputs .message-btn .btn-enviar input {
     border-radius: 5px;
-    color: var(--primary-color);
-    background-color: var(--background-color);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
     font-size: 16px;
     font-weight: 600;
-    text-shadow: 1px 1px var(--secondary-color);
+    box-shadow: var(--box-shadow);
+    /* text-shadow: 1px 1px var(--primary-color); */
     cursor: pointer;
+    border: 1px solid #3333333b;
 }
 
 .form-contact form .form-inputs .message-btn .btn-enviar input:hover {
-    background-color: #dc4d37c7;
+    background-color: #fafafae5;
     transform: scale(1.05);
     transition: 0.3s;
 }
