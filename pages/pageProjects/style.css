@@ -18,8 +18,8 @@
 .section-projects .links-projects {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 10px;
-    padding: 0px 10px;
+    grid-gap: 20px;
+    padding: 20px;
 
 }
 
@@ -118,6 +118,5 @@
 @media (max-width: 918px) {
     .section-projects .links-projects {
         grid-template-columns: auto;
-        padding: 0px 20px;
     }
 }
