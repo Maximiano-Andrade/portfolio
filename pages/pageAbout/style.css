@@ -143,7 +143,7 @@
     grid-template-columns: auto;
 }
 
-.formacao-mais-detalhes .cards-formacao .container-fromacao {
+.formacao-mais-detalhes .cards-formacao .container-formacao {
     width: 100%;
     padding: 10px;
     display: flex;
@@ -151,24 +151,24 @@
     align-items: center;
 }
 
-.cards-formacao .container-fromacao .card-formacao-title {
+.cards-formacao .container-formacao .card-formacao-title {
     width: 100%;
     padding: 10px;
     text-align: center;
 }
 
-.cards-formacao .container-fromacao .card-formacao-title h2 {
+.cards-formacao .container-formacao .card-formacao-title h2 {
     color: var(--secondary-color);
 }
 
-.cards-formacao .container-fromacao ul {
+.cards-formacao .container-formacao ul {
     width: 100%;
     height: 100%;
     display: grid;
     grid-gap: 20px;
 }
 
-.cards-formacao .container-fromacao ul .card-academico {
+.cards-formacao .container-formacao ul .card-academico {
     padding: 15px;
     border-radius: 10px;
     gap: 10px;
@@ -181,7 +181,7 @@
 }
 
 
-.cards-formacao .container-fromacao ul .card-academico .card-title-descript {
+.cards-formacao .container-formacao ul .card-academico .card-title-descript {
     height: 100%;
     gap: 10px;
     display: flex;
@@ -193,12 +193,12 @@
     font-size: 18px;
 }
 
-.cards-formacao .container-fromacao ul .card-academico .card-title-descript .descript p {
+.cards-formacao .container-formacao ul .card-academico .card-title-descript .descript p {
     font-size: 17px;
 
 }
 
-.cards-formacao .container-fromacao ul .card-academico .card-dates {
+.cards-formacao .container-formacao ul .card-academico .card-dates {
     width: 100%;
     display: flex;
     justify-content: space-between;
