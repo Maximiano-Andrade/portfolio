@@ -1,3 +1,4 @@
+/* CORPA DA PAGINA */
 .about-container {
     width: 100%;
     padding: 7px 0px;
@@ -94,7 +95,6 @@
 .about-section .text-about .list-about li ul li h6 {
     color: var(--primary-color);
     font-size: 23px;
-
 }
 
 .about-section .text-about .list-about li ul li i {
@@ -102,11 +102,12 @@
     font-size: 39px;
 }
 
+/* MUDA COR DE ICON AO PASSA MOUSE EM CIMA */
 .about-section .text-about .list-about li ul li i:hover {
     color: var(--background-color);
-    font-size: 39px;
 }
 
+/* SECTION DE FORMACAO DA PAGINA */
 .formacao-container {
     width: 100%;
     height: 100%;
@@ -217,7 +218,6 @@
     font-weight: 600;
     color: var(--primary-color);
 } 
-
 
 
 /* RESPONSIVIDADE 918 */

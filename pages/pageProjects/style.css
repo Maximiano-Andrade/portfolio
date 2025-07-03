@@ -1,3 +1,4 @@
+/* CONTEUDO DA PAGINA */
 .projects-container {
     width: 100%;
     padding: 7px 0px;
@@ -54,11 +55,11 @@
     height: 100%;
     border-radius: 5px;
 }
+
 .card-project .project-descricao {
     height: 100%;
     text-align: justify;
 }
-
 
 .card-project .project-tecnologia-utilizador {
     width: 100%;
@@ -112,6 +113,8 @@
     transform: scale(1.05);
 }
 
+
+/* RESPONSIVIDADE DA PAGINA */
 @media (max-width: 918px) {
     .section-projects .links-projects {
         grid-template-columns: auto;
